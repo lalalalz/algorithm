@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.21)
-project(TestB)
 
-add_executable(TestB main.cpp)
-include_directories(..)
+GET_FILENAME_COMPONENT(dir ${CMAKE_CURRENT_SOURCE_DIR} NAME)
+
+project(${dir})
+
+add_executable(${dir} main.cpp)
+
