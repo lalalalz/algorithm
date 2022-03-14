@@ -38,19 +38,18 @@ int solution(string str)
 
     for (int i = 1; i <= str.length()/2; ++i)
     {
+        count = 0;
         length = 0;
         position = 0;
-        count = 0;
 
         while(position < str.length())
         {
             pivotString = str.substr(position, i);
-            count  = compress(str, pivotString, position);
+            count = compress(str, pivotString, position);
+            length += i;
 
-            length += pivotString.length();
             if(count > 1)  length += getSize(count);
-
-            position += count * pivotString.length();
+            position += count * i;
         }
 
         answer = min(answer, length);
