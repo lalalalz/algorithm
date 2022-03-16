@@ -1,0 +1,31 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja /Users/lalalalz/CLionProjects/algorithm
+ADD DIRECTORY : BASIC_Dictionary
+ADD DIRECTORY : DFS_1
+ADD DIRECTORY : DP_1010
+ADD DIRECTORY : DP_10844
+ADD DIRECTORY : DP_11053
+ADD DIRECTORY : DP_1149
+ADD DIRECTORY : DP_11726
+ADD DIRECTORY : DP_1256
+ADD DIRECTORY : DP_1463
+ADD DIRECTORY : DP_1699
+ADD DIRECTORY : DP_1904
+ADD DIRECTORY : DP_1912
+ADD DIRECTORY : DP_1932
+ADD DIRECTORY : DP_2193
+ADD DIRECTORY : DP_2293
+ADD DIRECTORY : DP_2579
+ADD DIRECTORY : DP_2839
+ADD DIRECTORY : DP_9095
+ADD DIRECTORY : DP_9465
+ADD DIRECTORY : KAKAO_StringCompression
+ADD DIRECTORY : KAKAO_bracket
+ADD DIRECTORY : KAKAO_nickname
+ADD DIRECTORY : KAKAO_report
+ADD DIRECTORY : KAKAO_stringAndWord
+ADD DIRECTORY : KAKAO_traffic
+ADD DIRECTORY : TestA
+ADD DIRECTORY : TestB
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug
