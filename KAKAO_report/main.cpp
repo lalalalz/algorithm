@@ -1,79 +1,111 @@
 #include <string>
 #include <vector>
 #include <sstream>
-#include <iostream>
+#include <algorithm>
+#include <unordered_map>
 using namespace std;
 
 vector<int> INFO[4][3][3][3];
+unordered_map<string, int> MAP;
 
-int convert(string str)
+void setMAP()
 {
-    if(str == "-")        return 0;
-    if(str == "cpp")      return 1;
-    if(str == "java")     return 2;
-    if(str == "python")   return 3;
-    if(str == "backend")  return 1;
-    if(str == "frontend") return 2;
-    if(str == "junior")   return 1;
-    if(str == "senior")   return 2;
-    if(str == "chicken")  return 1;
-    if(str == "pizza")    return 2;
+    MAP["-"] = 0;
+    // language
+    MAP["cpp"] = 1;
+    MAP["java"] = 2;
+    MAP["python"] = 3;
+    // job
+    MAP["backend"] = 1;
+    MAP["frontend"] = 2;
+    // career
+    MAP["junior"] = 1;
+    MAP["senior"] = 2;
+    // food
+    MAP["chicken"] = 1;
+    MAP["pizza"] = 2;
 }
 
-void setScore(int i, int j, int k, int l, int score)
+void setScore(string info)
 {
-    INFO[i][j][k][l].push_back(score);
+    // info를 파싱한다.
+    int setIndex[4];
+    int infoIndex[4];
+    string language, job, career, food, score;
 
-    cout << i << j << k << l << endl;
+    stringstream ss(info);
+    ss >> language >> job >> career >> food >> score;
 
-    if(i == 0 && j == 0 && k == 0 && l == 0)  return;
+    infoIndex[0] = MAP[language];
+    infoIndex[1] = MAP[job];
+    infoIndex[2] = MAP[career];
+    infoIndex[3] = MAP[food];
 
-    for (int m = 0; m < 4; ++m)
+    // info를 모든 경우에 대해 점수를 셋팅한다.
+    for (int i = 0; i < (1 << 4); ++i)
     {
-        if(m == 0 && i != 0) setScore(0, j, k, l, score);
-        if(m == 1 && j != 0) setScore(i, 0, k, l, score);
-        if(m == 2 && k != 0) setScore(i, j, 0, l, score);
-        if(m == 3 && l != 0) setScore(i, j, k, 0, score);
-    }
-}
-vector<int> solution(vector<string> info, vector<string> query)
-{
-    string 언어;
-    string 직군;
-    string 경력;
-    string 소울푸드;
-    string 점수;
-    string 그리고;
-    int count;
-    vector<int> answer;
-
-    for (string i : info)
-    {
-        stringstream ss(i);
-        ss >> 언어 >> 직군 >> 경력 >> 소울푸드 >> 점수;
-        setScore(convert(언어),convert(직군),convert(경력),convert(소울푸드), stoi(점수));
-    }
-
-    for (auto q: query)
-    {
-        stringstream ss(q);
-        ss >> 언어 >> 그리고 >> 직군 >> 그리고 >> 경력 >> 그리고 >> 소울푸드 >> 점수;
-        count = 0;
-
-        for (int i = 0; i < INFO[convert(언어)][convert(직군)][convert(경력)][convert(소울푸드)].size(); ++i)
+        for (int j = 0; j < 4; ++j)
         {
-            if (INFO[convert(언어)][convert(직군)][convert(경력)][convert(소울푸드)][i] >= stoi(점수))
+            if(i & (1 << j))
             {
-
-                cout << INFO[convert(언어)][convert(직군)][convert(경력)][convert(소울푸드)][i] << ":" << stoi(점수) << endl;
-                count++;
+                setIndex[j] = infoIndex[j];
+            }
+            else
+            {
+                setIndex[j] = 0;
             }
         }
-        cout << count << endl;
+        INFO[setIndex[0]][setIndex[1]][setIndex[2]][setIndex[3]].push_back(stoi(score));
+    }
+}
 
-        answer.push_back(count);
+int getNumber(string query)
+{
+    string language, job, career, food, score, temp;
+    stringstream ss(query);
+
+    ss >> language >> temp >> job >> temp >> career >> temp >> food >> score;
+
+    auto& list = INFO[MAP[language]][MAP[job]][MAP[career]][MAP[food]];
+    vector<int>::iterator low = lower_bound(list.begin(), list.end(), stoi(score));
+
+    return list.end() - low;
+}
+
+vector<int> solution(vector<string> info, vector<string> query)
+{
+    vector<int> answer;
+
+    // 맵을 셋팅한다.
+    setMAP();
+    // 점수를 설정한다.
+    for (auto one: info)
+    {
+        setScore(one);
     }
 
+    // 정렬을 한다.
+    for (int i = 0; i < 4; ++i)
+    {
+        for (int j = 0; j < 3; ++j)
+        {
+            for (int k = 0; k < 3; ++k)
+            {
+                for (int l = 0; l < 3; ++l)
+                {
+                    sort(INFO[i][j][k][l].begin(), INFO[i][j][k][l].end());
+                }
+            }
+        }
+    }
+
+    // 쿼리를 처리한다.
+    for (auto one : query)
+    {
+        answer.push_back(getNumber(one));
+    }
+
+    // 결과를 반환한다.
     return answer;
 }
 

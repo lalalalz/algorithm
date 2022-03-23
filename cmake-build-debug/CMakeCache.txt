@@ -439,6 +439,15 @@ KAKAO_menuRenewal_IS_TOP_LEVEL:STATIC=OFF
 KAKAO_menuRenewal_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_menuRenewal
 
 //Value Computed by CMake
+KAKAO_newID_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_newID
+
+//Value Computed by CMake
+KAKAO_newID_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_newID_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_newID
+
+//Value Computed by CMake
 KAKAO_nickname_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_nickname
 
 //Value Computed by CMake
@@ -603,7 +612,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=30
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=31
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

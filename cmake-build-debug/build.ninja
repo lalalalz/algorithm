@@ -1429,6 +1429,65 @@ build KAKAO_menuRenewal/KAKAO_menuRenewal: CXX_EXECUTABLE_LINKER__KAKAO_menuRene
 #############################################
 # Utility command for rebuild_cache
 
+build KAKAO_newID/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_newID && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/lalalalz/CLionProjects/algorithm -B/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build KAKAO_newID/rebuild_cache: phony KAKAO_newID/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build KAKAO_newID/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_newID && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build KAKAO_newID/edit_cache: phony KAKAO_newID/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target KAKAO_newID
+
+
+#############################################
+# Order-only phony target for KAKAO_newID
+
+build cmake_object_order_depends_target_KAKAO_newID: phony || KAKAO_newID/CMakeFiles/KAKAO_newID.dir
+
+build KAKAO_newID/CMakeFiles/KAKAO_newID.dir/main.cpp.o: CXX_COMPILER__KAKAO_newID_Debug /Users/lalalalz/CLionProjects/algorithm/KAKAO_newID/main.cpp || cmake_object_order_depends_target_KAKAO_newID
+  DEP_FILE = KAKAO_newID/CMakeFiles/KAKAO_newID.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = KAKAO_newID/CMakeFiles/KAKAO_newID.dir
+  OBJECT_FILE_DIR = KAKAO_newID/CMakeFiles/KAKAO_newID.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target KAKAO_newID
+
+
+#############################################
+# Link the executable KAKAO_newID/KAKAO_newID
+
+build KAKAO_newID/KAKAO_newID: CXX_EXECUTABLE_LINKER__KAKAO_newID_Debug KAKAO_newID/CMakeFiles/KAKAO_newID.dir/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = KAKAO_newID/CMakeFiles/KAKAO_newID.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = KAKAO_newID/KAKAO_newID
+  TARGET_PDB = KAKAO_newID.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/lalalalz/CLionProjects/algorithm/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
 build KAKAO_nickname/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_nickname && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/lalalalz/CLionProjects/algorithm -B/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug
   DESC = Running CMake to regenerate build system...
@@ -1823,6 +1882,8 @@ build KAKAO_keypad: phony KAKAO_keypad/KAKAO_keypad
 
 build KAKAO_menuRenewal: phony KAKAO_menuRenewal/KAKAO_menuRenewal
 
+build KAKAO_newID: phony KAKAO_newID/KAKAO_newID
+
 build KAKAO_nickname: phony KAKAO_nickname/KAKAO_nickname
 
 build KAKAO_report: phony KAKAO_report/KAKAO_report
@@ -1843,7 +1904,7 @@ build TestB: phony TestB/TestB
 #############################################
 # Folder: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug
 
-build all: phony BASIC_Dictionary/all DFS_1/all DP_1010/all DP_10844/all DP_11053/all DP_1149/all DP_11726/all DP_1256/all DP_1463/all DP_1699/all DP_1904/all DP_1912/all DP_1932/all DP_2193/all DP_2293/all DP_2579/all DP_2839/all DP_9095/all DP_9465/all KAKAO_StringCompression/all KAKAO_bracket/all KAKAO_keypad/all KAKAO_menuRenewal/all KAKAO_nickname/all KAKAO_report/all KAKAO_stringAndWord/all KAKAO_traffic/all TestA/all TestB/all
+build all: phony BASIC_Dictionary/all DFS_1/all DP_1010/all DP_10844/all DP_11053/all DP_1149/all DP_11726/all DP_1256/all DP_1463/all DP_1699/all DP_1904/all DP_1912/all DP_1932/all DP_2193/all DP_2293/all DP_2579/all DP_2839/all DP_9095/all DP_9465/all KAKAO_StringCompression/all KAKAO_bracket/all KAKAO_keypad/all KAKAO_menuRenewal/all KAKAO_newID/all KAKAO_nickname/all KAKAO_report/all KAKAO_stringAndWord/all KAKAO_traffic/all TestA/all TestB/all
 
 # =============================================================================
 
@@ -2009,6 +2070,13 @@ build KAKAO_menuRenewal/all: phony KAKAO_menuRenewal/KAKAO_menuRenewal
 # =============================================================================
 
 #############################################
+# Folder: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_newID
+
+build KAKAO_newID/all: phony KAKAO_newID/KAKAO_newID
+
+# =============================================================================
+
+#############################################
 # Folder: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_nickname
 
 build KAKAO_nickname/all: phony KAKAO_nickname/KAKAO_nickname
@@ -2055,14 +2123,14 @@ build TestB/all: phony TestB/TestB
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../BASIC_Dictionary/CMakeLists.txt ../CMakeLists.txt ../DFS_1/CMakeLists.txt ../DP_1010/CMakeLists.txt ../DP_10844/CMakeLists.txt ../DP_11053/CMakeLists.txt ../DP_1149/CMakeLists.txt ../DP_11726/CMakeLists.txt ../DP_1256/CMakeLists.txt ../DP_1463/CMakeLists.txt ../DP_1699/CMakeLists.txt ../DP_1904/CMakeLists.txt ../DP_1912/CMakeLists.txt ../DP_1932/CMakeLists.txt ../DP_2193/CMakeLists.txt ../DP_2293/CMakeLists.txt ../DP_2579/CMakeLists.txt ../DP_2839/CMakeLists.txt ../DP_9095/CMakeLists.txt ../DP_9465/CMakeLists.txt ../KAKAO_StringCompression/CMakeLists.txt ../KAKAO_bracket/CMakeLists.txt ../KAKAO_keypad/CMakeLists.txt ../KAKAO_menuRenewal/CMakeLists.txt ../KAKAO_nickname/CMakeLists.txt ../KAKAO_report/CMakeLists.txt ../KAKAO_stringAndWord/CMakeLists.txt ../KAKAO_traffic/CMakeLists.txt ../TestA/CMakeLists.txt ../TestB/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../BASIC_Dictionary/CMakeLists.txt ../CMakeLists.txt ../DFS_1/CMakeLists.txt ../DP_1010/CMakeLists.txt ../DP_10844/CMakeLists.txt ../DP_11053/CMakeLists.txt ../DP_1149/CMakeLists.txt ../DP_11726/CMakeLists.txt ../DP_1256/CMakeLists.txt ../DP_1463/CMakeLists.txt ../DP_1699/CMakeLists.txt ../DP_1904/CMakeLists.txt ../DP_1912/CMakeLists.txt ../DP_1932/CMakeLists.txt ../DP_2193/CMakeLists.txt ../DP_2293/CMakeLists.txt ../DP_2579/CMakeLists.txt ../DP_2839/CMakeLists.txt ../DP_9095/CMakeLists.txt ../DP_9465/CMakeLists.txt ../KAKAO_StringCompression/CMakeLists.txt ../KAKAO_bracket/CMakeLists.txt ../KAKAO_keypad/CMakeLists.txt ../KAKAO_menuRenewal/CMakeLists.txt ../KAKAO_newID/CMakeLists.txt ../KAKAO_nickname/CMakeLists.txt ../KAKAO_report/CMakeLists.txt ../KAKAO_stringAndWord/CMakeLists.txt ../KAKAO_traffic/CMakeLists.txt ../TestA/CMakeLists.txt ../TestB/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../BASIC_Dictionary/CMakeLists.txt ../CMakeLists.txt ../DFS_1/CMakeLists.txt ../DP_1010/CMakeLists.txt ../DP_10844/CMakeLists.txt ../DP_11053/CMakeLists.txt ../DP_1149/CMakeLists.txt ../DP_11726/CMakeLists.txt ../DP_1256/CMakeLists.txt ../DP_1463/CMakeLists.txt ../DP_1699/CMakeLists.txt ../DP_1904/CMakeLists.txt ../DP_1912/CMakeLists.txt ../DP_1932/CMakeLists.txt ../DP_2193/CMakeLists.txt ../DP_2293/CMakeLists.txt ../DP_2579/CMakeLists.txt ../DP_2839/CMakeLists.txt ../DP_9095/CMakeLists.txt ../DP_9465/CMakeLists.txt ../KAKAO_StringCompression/CMakeLists.txt ../KAKAO_bracket/CMakeLists.txt ../KAKAO_keypad/CMakeLists.txt ../KAKAO_menuRenewal/CMakeLists.txt ../KAKAO_nickname/CMakeLists.txt ../KAKAO_report/CMakeLists.txt ../KAKAO_stringAndWord/CMakeLists.txt ../KAKAO_traffic/CMakeLists.txt ../TestA/CMakeLists.txt ../TestB/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake: phony
+build ../BASIC_Dictionary/CMakeLists.txt ../CMakeLists.txt ../DFS_1/CMakeLists.txt ../DP_1010/CMakeLists.txt ../DP_10844/CMakeLists.txt ../DP_11053/CMakeLists.txt ../DP_1149/CMakeLists.txt ../DP_11726/CMakeLists.txt ../DP_1256/CMakeLists.txt ../DP_1463/CMakeLists.txt ../DP_1699/CMakeLists.txt ../DP_1904/CMakeLists.txt ../DP_1912/CMakeLists.txt ../DP_1932/CMakeLists.txt ../DP_2193/CMakeLists.txt ../DP_2293/CMakeLists.txt ../DP_2579/CMakeLists.txt ../DP_2839/CMakeLists.txt ../DP_9095/CMakeLists.txt ../DP_9465/CMakeLists.txt ../KAKAO_StringCompression/CMakeLists.txt ../KAKAO_bracket/CMakeLists.txt ../KAKAO_keypad/CMakeLists.txt ../KAKAO_menuRenewal/CMakeLists.txt ../KAKAO_newID/CMakeLists.txt ../KAKAO_nickname/CMakeLists.txt ../KAKAO_report/CMakeLists.txt ../KAKAO_stringAndWord/CMakeLists.txt ../KAKAO_traffic/CMakeLists.txt ../TestA/CMakeLists.txt ../TestB/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake: phony
 
 
 #############################################
