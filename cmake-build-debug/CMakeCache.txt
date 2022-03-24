@@ -412,6 +412,15 @@ KAKAO_StringCompression_IS_TOP_LEVEL:STATIC=OFF
 KAKAO_StringCompression_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_StringCompression
 
 //Value Computed by CMake
+KAKAO_archery_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_archery
+
+//Value Computed by CMake
+KAKAO_archery_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_archery_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_archery
+
+//Value Computed by CMake
 KAKAO_bracket_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_bracket
 
 //Value Computed by CMake
@@ -457,6 +466,15 @@ KAKAO_nickname_IS_TOP_LEVEL:STATIC=OFF
 KAKAO_nickname_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_nickname
 
 //Value Computed by CMake
+KAKAO_parkingFees_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_parkingFees
+
+//Value Computed by CMake
+KAKAO_parkingFees_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_parkingFees_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_parkingFees
+
+//Value Computed by CMake
 KAKAO_report_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_report
 
 //Value Computed by CMake
@@ -491,6 +509,15 @@ KAKAO_zip_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 KAKAO_zip_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_zip
+
+//Value Computed by CMake
+KAKAO_주차요금_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_주차요금
+
+//Value Computed by CMake
+KAKAO_주차요금_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_주차요금_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_주차요금
 
 //Value Computed by CMake
 TestA_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/TestA
@@ -612,7 +639,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=31
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=33
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
