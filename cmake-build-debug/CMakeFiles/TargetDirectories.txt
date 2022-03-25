@@ -66,6 +66,9 @@
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_bracket/CMakeFiles/rebuild_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_bracket/CMakeFiles/edit_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_bracket/CMakeFiles/KAKAO_bracket.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_kNumber/CMakeFiles/rebuild_cache.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_kNumber/CMakeFiles/edit_cache.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_kNumber/CMakeFiles/KAKAO_kNumber.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_keypad/CMakeFiles/rebuild_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_keypad/CMakeFiles/edit_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_keypad/CMakeFiles/KAKAO_keypad.dir
