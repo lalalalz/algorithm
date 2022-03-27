@@ -448,6 +448,15 @@ KAKAO_keypad_IS_TOP_LEVEL:STATIC=OFF
 KAKAO_keypad_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_keypad
 
 //Value Computed by CMake
+KAKAO_lotto_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_lotto
+
+//Value Computed by CMake
+KAKAO_lotto_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_lotto_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_lotto
+
+//Value Computed by CMake
 KAKAO_menuRenewal_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_menuRenewal
 
 //Value Computed by CMake
@@ -491,6 +500,15 @@ KAKAO_report_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 KAKAO_report_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_report
+
+//Value Computed by CMake
+KAKAO_rotation_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_rotation
+
+//Value Computed by CMake
+KAKAO_rotation_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_rotation_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_rotation
 
 //Value Computed by CMake
 KAKAO_stringAndWord_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_stringAndWord
@@ -648,7 +666,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=34
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=36
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
