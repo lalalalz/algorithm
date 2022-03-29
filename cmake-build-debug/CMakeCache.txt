@@ -421,6 +421,15 @@ KAKAO_archery_IS_TOP_LEVEL:STATIC=OFF
 KAKAO_archery_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_archery
 
 //Value Computed by CMake
+KAKAO_bestalbum_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_bestalbum
+
+//Value Computed by CMake
+KAKAO_bestalbum_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_bestalbum_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_bestalbum
+
+//Value Computed by CMake
 KAKAO_bracket_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_bracket
 
 //Value Computed by CMake
@@ -428,6 +437,24 @@ KAKAO_bracket_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 KAKAO_bracket_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_bracket
+
+//Value Computed by CMake
+KAKAO_fail_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_fail
+
+//Value Computed by CMake
+KAKAO_fail_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_fail_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_fail
+
+//Value Computed by CMake
+KAKAO_findingPrimeNumber_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_findingPrimeNumber
+
+//Value Computed by CMake
+KAKAO_findingPrimeNumber_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_findingPrimeNumber_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_findingPrimeNumber
 
 //Value Computed by CMake
 KAKAO_kNumber_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_kNumber
@@ -493,6 +520,15 @@ KAKAO_parkingFees_IS_TOP_LEVEL:STATIC=OFF
 KAKAO_parkingFees_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_parkingFees
 
 //Value Computed by CMake
+KAKAO_pyramid_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_pyramid
+
+//Value Computed by CMake
+KAKAO_pyramid_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_pyramid_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_pyramid
+
+//Value Computed by CMake
 KAKAO_report_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_report
 
 //Value Computed by CMake
@@ -518,6 +554,24 @@ KAKAO_stringAndWord_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 KAKAO_stringAndWord_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_stringAndWord
+
+//Value Computed by CMake
+KAKAO_taxi_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_taxi
+
+//Value Computed by CMake
+KAKAO_taxi_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_taxi_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_taxi
+
+//Value Computed by CMake
+KAKAO_test_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_test
+
+//Value Computed by CMake
+KAKAO_test_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_test_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_test
 
 //Value Computed by CMake
 KAKAO_traffic_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_traffic
@@ -666,7 +720,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=36
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=42
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
