@@ -439,6 +439,15 @@ KAKAO_bracket_IS_TOP_LEVEL:STATIC=OFF
 KAKAO_bracket_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_bracket
 
 //Value Computed by CMake
+KAKAO_cache_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_cache
+
+//Value Computed by CMake
+KAKAO_cache_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_cache_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_cache
+
+//Value Computed by CMake
 KAKAO_carpet_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_carpet
 
 //Value Computed by CMake
@@ -792,7 +801,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=49
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=50
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
