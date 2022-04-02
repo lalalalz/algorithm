@@ -466,6 +466,15 @@ KAKAO_compress_IS_TOP_LEVEL:STATIC=OFF
 KAKAO_compress_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_compress
 
 //Value Computed by CMake
+KAKAO_covid_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_covid
+
+//Value Computed by CMake
+KAKAO_covid_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_covid_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_covid
+
+//Value Computed by CMake
 KAKAO_dart_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_dart
 
 //Value Computed by CMake
@@ -581,6 +590,15 @@ KAKAO_parkingFees_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 KAKAO_parkingFees_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_parkingFees
+
+//Value Computed by CMake
+KAKAO_photo_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_photo
+
+//Value Computed by CMake
+KAKAO_photo_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_photo_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_photo
 
 //Value Computed by CMake
 KAKAO_pyramid_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_pyramid
@@ -801,7 +819,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=50
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=52
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

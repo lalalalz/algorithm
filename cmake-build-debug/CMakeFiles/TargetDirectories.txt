@@ -78,6 +78,9 @@
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_compress/CMakeFiles/rebuild_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_compress/CMakeFiles/edit_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_compress/CMakeFiles/KAKAO_compress.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_covid/CMakeFiles/rebuild_cache.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_covid/CMakeFiles/edit_cache.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_covid/CMakeFiles/KAKAO_covid.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_dart/CMakeFiles/rebuild_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_dart/CMakeFiles/edit_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_dart/CMakeFiles/KAKAO_dart.dir
@@ -114,6 +117,9 @@
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_parkingFees/CMakeFiles/rebuild_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_parkingFees/CMakeFiles/edit_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_parkingFees/CMakeFiles/KAKAO_parkingFees.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_photo/CMakeFiles/rebuild_cache.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_photo/CMakeFiles/edit_cache.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_photo/CMakeFiles/KAKAO_photo.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_pyramid/CMakeFiles/rebuild_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_pyramid/CMakeFiles/edit_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_pyramid/CMakeFiles/KAKAO_pyramid.dir
