@@ -394,6 +394,15 @@ DP_9465_IS_TOP_LEVEL:STATIC=OFF
 DP_9465_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/DP_9465
 
 //Value Computed by CMake
+KAKAO_MaxExpression_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_MaxExpression
+
+//Value Computed by CMake
+KAKAO_MaxExpression_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_MaxExpression_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_MaxExpression
+
+//Value Computed by CMake
 KAKAO_RankingSearch_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_RankingSearch
 
 //Value Computed by CMake
@@ -682,6 +691,15 @@ KAKAO_traffic_IS_TOP_LEVEL:STATIC=OFF
 KAKAO_traffic_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_traffic
 
 //Value Computed by CMake
+KAKAO_tuple_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_tuple
+
+//Value Computed by CMake
+KAKAO_tuple_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_tuple_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_tuple
+
+//Value Computed by CMake
 KAKAO_zip_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_zip
 
 //Value Computed by CMake
@@ -819,7 +837,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=52
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=54
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
