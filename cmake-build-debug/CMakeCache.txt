@@ -466,6 +466,15 @@ KAKAO_carpet_IS_TOP_LEVEL:STATIC=OFF
 KAKAO_carpet_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_carpet
 
 //Value Computed by CMake
+KAKAO_coloringBook_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_coloringBook
+
+//Value Computed by CMake
+KAKAO_coloringBook_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_coloringBook_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_coloringBook
+
+//Value Computed by CMake
 KAKAO_compress_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_compress
 
 //Value Computed by CMake
@@ -482,6 +491,15 @@ KAKAO_covid_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 KAKAO_covid_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_covid
+
+//Value Computed by CMake
+KAKAO_crain_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_crain
+
+//Value Computed by CMake
+KAKAO_crain_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_crain_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_crain
 
 //Value Computed by CMake
 KAKAO_dart_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_dart
@@ -518,6 +536,15 @@ KAKAO_findingPrimeNumber_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 KAKAO_findingPrimeNumber_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_findingPrimeNumber
+
+//Value Computed by CMake
+KAKAO_jewelyshopping_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_jewelyshopping
+
+//Value Computed by CMake
+KAKAO_jewelyshopping_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_jewelyshopping_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_jewelyshopping
 
 //Value Computed by CMake
 KAKAO_kNumber_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_kNumber
@@ -837,7 +864,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=54
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=57
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
