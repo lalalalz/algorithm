@@ -1429,6 +1429,65 @@ build KAKAO_bestalbum/KAKAO_bestalbum: CXX_EXECUTABLE_LINKER__KAKAO_bestalbum_De
 #############################################
 # Utility command for rebuild_cache
 
+build KAKAO_bigestNumber/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_bigestNumber && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/lalalalz/CLionProjects/algorithm -B/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build KAKAO_bigestNumber/rebuild_cache: phony KAKAO_bigestNumber/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build KAKAO_bigestNumber/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_bigestNumber && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build KAKAO_bigestNumber/edit_cache: phony KAKAO_bigestNumber/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target KAKAO_bigestNumber
+
+
+#############################################
+# Order-only phony target for KAKAO_bigestNumber
+
+build cmake_object_order_depends_target_KAKAO_bigestNumber: phony || KAKAO_bigestNumber/CMakeFiles/KAKAO_bigestNumber.dir
+
+build KAKAO_bigestNumber/CMakeFiles/KAKAO_bigestNumber.dir/main.cpp.o: CXX_COMPILER__KAKAO_bigestNumber_Debug /Users/lalalalz/CLionProjects/algorithm/KAKAO_bigestNumber/main.cpp || cmake_object_order_depends_target_KAKAO_bigestNumber
+  DEP_FILE = KAKAO_bigestNumber/CMakeFiles/KAKAO_bigestNumber.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = KAKAO_bigestNumber/CMakeFiles/KAKAO_bigestNumber.dir
+  OBJECT_FILE_DIR = KAKAO_bigestNumber/CMakeFiles/KAKAO_bigestNumber.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target KAKAO_bigestNumber
+
+
+#############################################
+# Link the executable KAKAO_bigestNumber/KAKAO_bigestNumber
+
+build KAKAO_bigestNumber/KAKAO_bigestNumber: CXX_EXECUTABLE_LINKER__KAKAO_bigestNumber_Debug KAKAO_bigestNumber/CMakeFiles/KAKAO_bigestNumber.dir/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = KAKAO_bigestNumber/CMakeFiles/KAKAO_bigestNumber.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = KAKAO_bigestNumber/KAKAO_bigestNumber
+  TARGET_PDB = KAKAO_bigestNumber.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/lalalalz/CLionProjects/algorithm/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
 build KAKAO_bracket/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_bracket && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/lalalalz/CLionProjects/algorithm -B/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug
   DESC = Running CMake to regenerate build system...
@@ -1891,6 +1950,183 @@ build KAKAO_dart/KAKAO_dart: CXX_EXECUTABLE_LINKER__KAKAO_dart_Debug KAKAO_dart/
   PRE_LINK = :
   TARGET_FILE = KAKAO_dart/KAKAO_dart
   TARGET_PDB = KAKAO_dart.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/lalalalz/CLionProjects/algorithm/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build KAKAO_deletePair/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_deletePair && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/lalalalz/CLionProjects/algorithm -B/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build KAKAO_deletePair/rebuild_cache: phony KAKAO_deletePair/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build KAKAO_deletePair/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_deletePair && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build KAKAO_deletePair/edit_cache: phony KAKAO_deletePair/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target KAKAO_deletePair
+
+
+#############################################
+# Order-only phony target for KAKAO_deletePair
+
+build cmake_object_order_depends_target_KAKAO_deletePair: phony || KAKAO_deletePair/CMakeFiles/KAKAO_deletePair.dir
+
+build KAKAO_deletePair/CMakeFiles/KAKAO_deletePair.dir/main.cpp.o: CXX_COMPILER__KAKAO_deletePair_Debug /Users/lalalalz/CLionProjects/algorithm/KAKAO_deletePair/main.cpp || cmake_object_order_depends_target_KAKAO_deletePair
+  DEP_FILE = KAKAO_deletePair/CMakeFiles/KAKAO_deletePair.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = KAKAO_deletePair/CMakeFiles/KAKAO_deletePair.dir
+  OBJECT_FILE_DIR = KAKAO_deletePair/CMakeFiles/KAKAO_deletePair.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target KAKAO_deletePair
+
+
+#############################################
+# Link the executable KAKAO_deletePair/KAKAO_deletePair
+
+build KAKAO_deletePair/KAKAO_deletePair: CXX_EXECUTABLE_LINKER__KAKAO_deletePair_Debug KAKAO_deletePair/CMakeFiles/KAKAO_deletePair.dir/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = KAKAO_deletePair/CMakeFiles/KAKAO_deletePair.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = KAKAO_deletePair/KAKAO_deletePair
+  TARGET_PDB = KAKAO_deletePair.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/lalalalz/CLionProjects/algorithm/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build KAKAO_develope/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_develope && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/lalalalz/CLionProjects/algorithm -B/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build KAKAO_develope/rebuild_cache: phony KAKAO_develope/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build KAKAO_develope/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_develope && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build KAKAO_develope/edit_cache: phony KAKAO_develope/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target KAKAO_develope
+
+
+#############################################
+# Order-only phony target for KAKAO_develope
+
+build cmake_object_order_depends_target_KAKAO_develope: phony || KAKAO_develope/CMakeFiles/KAKAO_develope.dir
+
+build KAKAO_develope/CMakeFiles/KAKAO_develope.dir/main.cpp.o: CXX_COMPILER__KAKAO_develope_Debug /Users/lalalalz/CLionProjects/algorithm/KAKAO_develope/main.cpp || cmake_object_order_depends_target_KAKAO_develope
+  DEP_FILE = KAKAO_develope/CMakeFiles/KAKAO_develope.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = KAKAO_develope/CMakeFiles/KAKAO_develope.dir
+  OBJECT_FILE_DIR = KAKAO_develope/CMakeFiles/KAKAO_develope.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target KAKAO_develope
+
+
+#############################################
+# Link the executable KAKAO_develope/KAKAO_develope
+
+build KAKAO_develope/KAKAO_develope: CXX_EXECUTABLE_LINKER__KAKAO_develope_Debug KAKAO_develope/CMakeFiles/KAKAO_develope.dir/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = KAKAO_develope/CMakeFiles/KAKAO_develope.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = KAKAO_develope/KAKAO_develope
+  TARGET_PDB = KAKAO_develope.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/lalalalz/CLionProjects/algorithm/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build KAKAO_divisorNumberAndAdd/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_divisorNumberAndAdd && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/lalalalz/CLionProjects/algorithm -B/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build KAKAO_divisorNumberAndAdd/rebuild_cache: phony KAKAO_divisorNumberAndAdd/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build KAKAO_divisorNumberAndAdd/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_divisorNumberAndAdd && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build KAKAO_divisorNumberAndAdd/edit_cache: phony KAKAO_divisorNumberAndAdd/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target KAKAO_divisorNumberAndAdd
+
+
+#############################################
+# Order-only phony target for KAKAO_divisorNumberAndAdd
+
+build cmake_object_order_depends_target_KAKAO_divisorNumberAndAdd: phony || KAKAO_divisorNumberAndAdd/CMakeFiles/KAKAO_divisorNumberAndAdd.dir
+
+build KAKAO_divisorNumberAndAdd/CMakeFiles/KAKAO_divisorNumberAndAdd.dir/main.cpp.o: CXX_COMPILER__KAKAO_divisorNumberAndAdd_Debug /Users/lalalalz/CLionProjects/algorithm/KAKAO_divisorNumberAndAdd/main.cpp || cmake_object_order_depends_target_KAKAO_divisorNumberAndAdd
+  DEP_FILE = KAKAO_divisorNumberAndAdd/CMakeFiles/KAKAO_divisorNumberAndAdd.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = KAKAO_divisorNumberAndAdd/CMakeFiles/KAKAO_divisorNumberAndAdd.dir
+  OBJECT_FILE_DIR = KAKAO_divisorNumberAndAdd/CMakeFiles/KAKAO_divisorNumberAndAdd.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target KAKAO_divisorNumberAndAdd
+
+
+#############################################
+# Link the executable KAKAO_divisorNumberAndAdd/KAKAO_divisorNumberAndAdd
+
+build KAKAO_divisorNumberAndAdd/KAKAO_divisorNumberAndAdd: CXX_EXECUTABLE_LINKER__KAKAO_divisorNumberAndAdd_Debug KAKAO_divisorNumberAndAdd/CMakeFiles/KAKAO_divisorNumberAndAdd.dir/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = KAKAO_divisorNumberAndAdd/CMakeFiles/KAKAO_divisorNumberAndAdd.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = KAKAO_divisorNumberAndAdd/KAKAO_divisorNumberAndAdd
+  TARGET_PDB = KAKAO_divisorNumberAndAdd.dbg
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -2373,6 +2609,65 @@ build KAKAO_menuRenewal/KAKAO_menuRenewal: CXX_EXECUTABLE_LINKER__KAKAO_menuRene
 #############################################
 # Utility command for rebuild_cache
 
+build KAKAO_moreSpicy/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_moreSpicy && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/lalalalz/CLionProjects/algorithm -B/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build KAKAO_moreSpicy/rebuild_cache: phony KAKAO_moreSpicy/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build KAKAO_moreSpicy/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_moreSpicy && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build KAKAO_moreSpicy/edit_cache: phony KAKAO_moreSpicy/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target KAKAO_moreSpicy
+
+
+#############################################
+# Order-only phony target for KAKAO_moreSpicy
+
+build cmake_object_order_depends_target_KAKAO_moreSpicy: phony || KAKAO_moreSpicy/CMakeFiles/KAKAO_moreSpicy.dir
+
+build KAKAO_moreSpicy/CMakeFiles/KAKAO_moreSpicy.dir/main.cpp.o: CXX_COMPILER__KAKAO_moreSpicy_Debug /Users/lalalalz/CLionProjects/algorithm/KAKAO_moreSpicy/main.cpp || cmake_object_order_depends_target_KAKAO_moreSpicy
+  DEP_FILE = KAKAO_moreSpicy/CMakeFiles/KAKAO_moreSpicy.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = KAKAO_moreSpicy/CMakeFiles/KAKAO_moreSpicy.dir
+  OBJECT_FILE_DIR = KAKAO_moreSpicy/CMakeFiles/KAKAO_moreSpicy.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target KAKAO_moreSpicy
+
+
+#############################################
+# Link the executable KAKAO_moreSpicy/KAKAO_moreSpicy
+
+build KAKAO_moreSpicy/KAKAO_moreSpicy: CXX_EXECUTABLE_LINKER__KAKAO_moreSpicy_Debug KAKAO_moreSpicy/CMakeFiles/KAKAO_moreSpicy.dir/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = KAKAO_moreSpicy/CMakeFiles/KAKAO_moreSpicy.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = KAKAO_moreSpicy/KAKAO_moreSpicy
+  TARGET_PDB = KAKAO_moreSpicy.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/lalalalz/CLionProjects/algorithm/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
 build KAKAO_newID/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_newID && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/lalalalz/CLionProjects/algorithm -B/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug
   DESC = Running CMake to regenerate build system...
@@ -2550,6 +2845,65 @@ build KAKAO_nickname/KAKAO_nickname: CXX_EXECUTABLE_LINKER__KAKAO_nickname_Debug
 #############################################
 # Utility command for rebuild_cache
 
+build KAKAO_nn/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_nn && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/lalalalz/CLionProjects/algorithm -B/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build KAKAO_nn/rebuild_cache: phony KAKAO_nn/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build KAKAO_nn/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_nn && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build KAKAO_nn/edit_cache: phony KAKAO_nn/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target KAKAO_nn
+
+
+#############################################
+# Order-only phony target for KAKAO_nn
+
+build cmake_object_order_depends_target_KAKAO_nn: phony || KAKAO_nn/CMakeFiles/KAKAO_nn.dir
+
+build KAKAO_nn/CMakeFiles/KAKAO_nn.dir/main.cpp.o: CXX_COMPILER__KAKAO_nn_Debug /Users/lalalalz/CLionProjects/algorithm/KAKAO_nn/main.cpp || cmake_object_order_depends_target_KAKAO_nn
+  DEP_FILE = KAKAO_nn/CMakeFiles/KAKAO_nn.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = KAKAO_nn/CMakeFiles/KAKAO_nn.dir
+  OBJECT_FILE_DIR = KAKAO_nn/CMakeFiles/KAKAO_nn.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target KAKAO_nn
+
+
+#############################################
+# Link the executable KAKAO_nn/KAKAO_nn
+
+build KAKAO_nn/KAKAO_nn: CXX_EXECUTABLE_LINKER__KAKAO_nn_Debug KAKAO_nn/CMakeFiles/KAKAO_nn.dir/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = KAKAO_nn/CMakeFiles/KAKAO_nn.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = KAKAO_nn/KAKAO_nn
+  TARGET_PDB = KAKAO_nn.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/lalalalz/CLionProjects/algorithm/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
 build KAKAO_parkingFees/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_parkingFees && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/lalalalz/CLionProjects/algorithm -B/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug
   DESC = Running CMake to regenerate build system...
@@ -2658,6 +3012,65 @@ build KAKAO_photo/KAKAO_photo: CXX_EXECUTABLE_LINKER__KAKAO_photo_Debug KAKAO_ph
   PRE_LINK = :
   TARGET_FILE = KAKAO_photo/KAKAO_photo
   TARGET_PDB = KAKAO_photo.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/lalalalz/CLionProjects/algorithm/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build KAKAO_printer/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_printer && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/lalalalz/CLionProjects/algorithm -B/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build KAKAO_printer/rebuild_cache: phony KAKAO_printer/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build KAKAO_printer/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_printer && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build KAKAO_printer/edit_cache: phony KAKAO_printer/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target KAKAO_printer
+
+
+#############################################
+# Order-only phony target for KAKAO_printer
+
+build cmake_object_order_depends_target_KAKAO_printer: phony || KAKAO_printer/CMakeFiles/KAKAO_printer.dir
+
+build KAKAO_printer/CMakeFiles/KAKAO_printer.dir/main.cpp.o: CXX_COMPILER__KAKAO_printer_Debug /Users/lalalalz/CLionProjects/algorithm/KAKAO_printer/main.cpp || cmake_object_order_depends_target_KAKAO_printer
+  DEP_FILE = KAKAO_printer/CMakeFiles/KAKAO_printer.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = KAKAO_printer/CMakeFiles/KAKAO_printer.dir
+  OBJECT_FILE_DIR = KAKAO_printer/CMakeFiles/KAKAO_printer.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target KAKAO_printer
+
+
+#############################################
+# Link the executable KAKAO_printer/KAKAO_printer
+
+build KAKAO_printer/KAKAO_printer: CXX_EXECUTABLE_LINKER__KAKAO_printer_Debug KAKAO_printer/CMakeFiles/KAKAO_printer.dir/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = KAKAO_printer/CMakeFiles/KAKAO_printer.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = KAKAO_printer/KAKAO_printer
+  TARGET_PDB = KAKAO_printer.dbg
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -2953,6 +3366,65 @@ build KAKAO_stringAndWord/KAKAO_stringAndWord: CXX_EXECUTABLE_LINKER__KAKAO_stri
   PRE_LINK = :
   TARGET_FILE = KAKAO_stringAndWord/KAKAO_stringAndWord
   TARGET_PDB = KAKAO_stringAndWord.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/lalalalz/CLionProjects/algorithm/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build KAKAO_targetNumber/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_targetNumber && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/lalalalz/CLionProjects/algorithm -B/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build KAKAO_targetNumber/rebuild_cache: phony KAKAO_targetNumber/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build KAKAO_targetNumber/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_targetNumber && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build KAKAO_targetNumber/edit_cache: phony KAKAO_targetNumber/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target KAKAO_targetNumber
+
+
+#############################################
+# Order-only phony target for KAKAO_targetNumber
+
+build cmake_object_order_depends_target_KAKAO_targetNumber: phony || KAKAO_targetNumber/CMakeFiles/KAKAO_targetNumber.dir
+
+build KAKAO_targetNumber/CMakeFiles/KAKAO_targetNumber.dir/main.cpp.o: CXX_COMPILER__KAKAO_targetNumber_Debug /Users/lalalalz/CLionProjects/algorithm/KAKAO_targetNumber/main.cpp || cmake_object_order_depends_target_KAKAO_targetNumber
+  DEP_FILE = KAKAO_targetNumber/CMakeFiles/KAKAO_targetNumber.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = KAKAO_targetNumber/CMakeFiles/KAKAO_targetNumber.dir
+  OBJECT_FILE_DIR = KAKAO_targetNumber/CMakeFiles/KAKAO_targetNumber.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target KAKAO_targetNumber
+
+
+#############################################
+# Link the executable KAKAO_targetNumber/KAKAO_targetNumber
+
+build KAKAO_targetNumber/KAKAO_targetNumber: CXX_EXECUTABLE_LINKER__KAKAO_targetNumber_Debug KAKAO_targetNumber/CMakeFiles/KAKAO_targetNumber.dir/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = KAKAO_targetNumber/CMakeFiles/KAKAO_targetNumber.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = KAKAO_targetNumber/KAKAO_targetNumber
+  TARGET_PDB = KAKAO_targetNumber.dbg
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -3416,6 +3888,8 @@ build KAKAO_archery: phony KAKAO_archery/KAKAO_archery
 
 build KAKAO_bestalbum: phony KAKAO_bestalbum/KAKAO_bestalbum
 
+build KAKAO_bigestNumber: phony KAKAO_bigestNumber/KAKAO_bigestNumber
+
 build KAKAO_bracket: phony KAKAO_bracket/KAKAO_bracket
 
 build KAKAO_cache: phony KAKAO_cache/KAKAO_cache
@@ -3431,6 +3905,12 @@ build KAKAO_covid: phony KAKAO_covid/KAKAO_covid
 build KAKAO_crain: phony KAKAO_crain/KAKAO_crain
 
 build KAKAO_dart: phony KAKAO_dart/KAKAO_dart
+
+build KAKAO_deletePair: phony KAKAO_deletePair/KAKAO_deletePair
+
+build KAKAO_develope: phony KAKAO_develope/KAKAO_develope
+
+build KAKAO_divisorNumberAndAdd: phony KAKAO_divisorNumberAndAdd/KAKAO_divisorNumberAndAdd
 
 build KAKAO_fail: phony KAKAO_fail/KAKAO_fail
 
@@ -3448,15 +3928,21 @@ build KAKAO_lotto: phony KAKAO_lotto/KAKAO_lotto
 
 build KAKAO_menuRenewal: phony KAKAO_menuRenewal/KAKAO_menuRenewal
 
+build KAKAO_moreSpicy: phony KAKAO_moreSpicy/KAKAO_moreSpicy
+
 build KAKAO_newID: phony KAKAO_newID/KAKAO_newID
 
 build KAKAO_newsClustering: phony KAKAO_newsClustering/KAKAO_newsClustering
 
 build KAKAO_nickname: phony KAKAO_nickname/KAKAO_nickname
 
+build KAKAO_nn: phony KAKAO_nn/KAKAO_nn
+
 build KAKAO_parkingFees: phony KAKAO_parkingFees/KAKAO_parkingFees
 
 build KAKAO_photo: phony KAKAO_photo/KAKAO_photo
+
+build KAKAO_printer: phony KAKAO_printer/KAKAO_printer
 
 build KAKAO_pyramid: phony KAKAO_pyramid/KAKAO_pyramid
 
@@ -3467,6 +3953,8 @@ build KAKAO_rotation: phony KAKAO_rotation/KAKAO_rotation
 build KAKAO_secretMap: phony KAKAO_secretMap/KAKAO_secretMap
 
 build KAKAO_stringAndWord: phony KAKAO_stringAndWord/KAKAO_stringAndWord
+
+build KAKAO_targetNumber: phony KAKAO_targetNumber/KAKAO_targetNumber
 
 build KAKAO_taxi: phony KAKAO_taxi/KAKAO_taxi
 
@@ -3490,7 +3978,7 @@ build TestB: phony TestB/TestB
 #############################################
 # Folder: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug
 
-build all: phony BASIC_Dictionary/all DFS_1/all DP_1010/all DP_10844/all DP_11053/all DP_1149/all DP_11726/all DP_1256/all DP_1463/all DP_1699/all DP_1904/all DP_1912/all DP_1932/all DP_2193/all DP_2293/all DP_2579/all DP_2839/all DP_9095/all DP_9465/all KAKAO_MaxExpression/all KAKAO_StringCompression/all KAKAO_archery/all KAKAO_bestalbum/all KAKAO_bracket/all KAKAO_cache/all KAKAO_carpet/all KAKAO_coloringBook/all KAKAO_compress/all KAKAO_covid/all KAKAO_crain/all KAKAO_dart/all KAKAO_fail/all KAKAO_fileSort/all KAKAO_findingPrimeNumber/all KAKAO_jewelyshopping/all KAKAO_kNumber/all KAKAO_keypad/all KAKAO_lotto/all KAKAO_menuRenewal/all KAKAO_newID/all KAKAO_newsClustering/all KAKAO_nickname/all KAKAO_parkingFees/all KAKAO_photo/all KAKAO_pyramid/all KAKAO_report/all KAKAO_rotation/all KAKAO_secretMap/all KAKAO_stringAndWord/all KAKAO_taxi/all KAKAO_test/all KAKAO_thatSong/all KAKAO_traffic/all KAKAO_tuple/all TestA/all TestB/all
+build all: phony BASIC_Dictionary/all DFS_1/all DP_1010/all DP_10844/all DP_11053/all DP_1149/all DP_11726/all DP_1256/all DP_1463/all DP_1699/all DP_1904/all DP_1912/all DP_1932/all DP_2193/all DP_2293/all DP_2579/all DP_2839/all DP_9095/all DP_9465/all KAKAO_MaxExpression/all KAKAO_StringCompression/all KAKAO_archery/all KAKAO_bestalbum/all KAKAO_bigestNumber/all KAKAO_bracket/all KAKAO_cache/all KAKAO_carpet/all KAKAO_coloringBook/all KAKAO_compress/all KAKAO_covid/all KAKAO_crain/all KAKAO_dart/all KAKAO_deletePair/all KAKAO_develope/all KAKAO_divisorNumberAndAdd/all KAKAO_fail/all KAKAO_fileSort/all KAKAO_findingPrimeNumber/all KAKAO_jewelyshopping/all KAKAO_kNumber/all KAKAO_keypad/all KAKAO_lotto/all KAKAO_menuRenewal/all KAKAO_moreSpicy/all KAKAO_newID/all KAKAO_newsClustering/all KAKAO_nickname/all KAKAO_nn/all KAKAO_parkingFees/all KAKAO_photo/all KAKAO_printer/all KAKAO_pyramid/all KAKAO_report/all KAKAO_rotation/all KAKAO_secretMap/all KAKAO_stringAndWord/all KAKAO_targetNumber/all KAKAO_taxi/all KAKAO_test/all KAKAO_thatSong/all KAKAO_traffic/all KAKAO_tuple/all TestA/all TestB/all
 
 # =============================================================================
 
@@ -3656,6 +4144,13 @@ build KAKAO_bestalbum/all: phony KAKAO_bestalbum/KAKAO_bestalbum
 # =============================================================================
 
 #############################################
+# Folder: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_bigestNumber
+
+build KAKAO_bigestNumber/all: phony KAKAO_bigestNumber/KAKAO_bigestNumber
+
+# =============================================================================
+
+#############################################
 # Folder: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_bracket
 
 build KAKAO_bracket/all: phony KAKAO_bracket/KAKAO_bracket
@@ -3708,6 +4203,27 @@ build KAKAO_crain/all: phony KAKAO_crain/KAKAO_crain
 # Folder: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_dart
 
 build KAKAO_dart/all: phony KAKAO_dart/KAKAO_dart
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_deletePair
+
+build KAKAO_deletePair/all: phony KAKAO_deletePair/KAKAO_deletePair
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_develope
+
+build KAKAO_develope/all: phony KAKAO_develope/KAKAO_develope
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_divisorNumberAndAdd
+
+build KAKAO_divisorNumberAndAdd/all: phony KAKAO_divisorNumberAndAdd/KAKAO_divisorNumberAndAdd
 
 # =============================================================================
 
@@ -3768,6 +4284,13 @@ build KAKAO_menuRenewal/all: phony KAKAO_menuRenewal/KAKAO_menuRenewal
 # =============================================================================
 
 #############################################
+# Folder: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_moreSpicy
+
+build KAKAO_moreSpicy/all: phony KAKAO_moreSpicy/KAKAO_moreSpicy
+
+# =============================================================================
+
+#############################################
 # Folder: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_newID
 
 build KAKAO_newID/all: phony KAKAO_newID/KAKAO_newID
@@ -3789,6 +4312,13 @@ build KAKAO_nickname/all: phony KAKAO_nickname/KAKAO_nickname
 # =============================================================================
 
 #############################################
+# Folder: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_nn
+
+build KAKAO_nn/all: phony KAKAO_nn/KAKAO_nn
+
+# =============================================================================
+
+#############################################
 # Folder: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_parkingFees
 
 build KAKAO_parkingFees/all: phony KAKAO_parkingFees/KAKAO_parkingFees
@@ -3799,6 +4329,13 @@ build KAKAO_parkingFees/all: phony KAKAO_parkingFees/KAKAO_parkingFees
 # Folder: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_photo
 
 build KAKAO_photo/all: phony KAKAO_photo/KAKAO_photo
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_printer
+
+build KAKAO_printer/all: phony KAKAO_printer/KAKAO_printer
 
 # =============================================================================
 
@@ -3834,6 +4371,13 @@ build KAKAO_secretMap/all: phony KAKAO_secretMap/KAKAO_secretMap
 # Folder: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_stringAndWord
 
 build KAKAO_stringAndWord/all: phony KAKAO_stringAndWord/KAKAO_stringAndWord
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_targetNumber
+
+build KAKAO_targetNumber/all: phony KAKAO_targetNumber/KAKAO_targetNumber
 
 # =============================================================================
 
@@ -3891,14 +4435,14 @@ build TestB/all: phony TestB/TestB
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../BASIC_Dictionary/CMakeLists.txt ../CMakeLists.txt ../DFS_1/CMakeLists.txt ../DP_1010/CMakeLists.txt ../DP_10844/CMakeLists.txt ../DP_11053/CMakeLists.txt ../DP_1149/CMakeLists.txt ../DP_11726/CMakeLists.txt ../DP_1256/CMakeLists.txt ../DP_1463/CMakeLists.txt ../DP_1699/CMakeLists.txt ../DP_1904/CMakeLists.txt ../DP_1912/CMakeLists.txt ../DP_1932/CMakeLists.txt ../DP_2193/CMakeLists.txt ../DP_2293/CMakeLists.txt ../DP_2579/CMakeLists.txt ../DP_2839/CMakeLists.txt ../DP_9095/CMakeLists.txt ../DP_9465/CMakeLists.txt ../KAKAO_MaxExpression/CMakeLists.txt ../KAKAO_StringCompression/CMakeLists.txt ../KAKAO_archery/CMakeLists.txt ../KAKAO_bestalbum/CMakeLists.txt ../KAKAO_bracket/CMakeLists.txt ../KAKAO_cache/CMakeLists.txt ../KAKAO_carpet/CMakeLists.txt ../KAKAO_coloringBook/CMakeLists.txt ../KAKAO_compress/CMakeLists.txt ../KAKAO_covid/CMakeLists.txt ../KAKAO_crain/CMakeLists.txt ../KAKAO_dart/CMakeLists.txt ../KAKAO_fail/CMakeLists.txt ../KAKAO_fileSort/CMakeLists.txt ../KAKAO_findingPrimeNumber/CMakeLists.txt ../KAKAO_jewelyshopping/CMakeLists.txt ../KAKAO_kNumber/CMakeLists.txt ../KAKAO_keypad/CMakeLists.txt ../KAKAO_lotto/CMakeLists.txt ../KAKAO_menuRenewal/CMakeLists.txt ../KAKAO_newID/CMakeLists.txt ../KAKAO_newsClustering/CMakeLists.txt ../KAKAO_nickname/CMakeLists.txt ../KAKAO_parkingFees/CMakeLists.txt ../KAKAO_photo/CMakeLists.txt ../KAKAO_pyramid/CMakeLists.txt ../KAKAO_report/CMakeLists.txt ../KAKAO_rotation/CMakeLists.txt ../KAKAO_secretMap/CMakeLists.txt ../KAKAO_stringAndWord/CMakeLists.txt ../KAKAO_taxi/CMakeLists.txt ../KAKAO_test/CMakeLists.txt ../KAKAO_thatSong/CMakeLists.txt ../KAKAO_traffic/CMakeLists.txt ../KAKAO_tuple/CMakeLists.txt ../TestA/CMakeLists.txt ../TestB/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../BASIC_Dictionary/CMakeLists.txt ../CMakeLists.txt ../DFS_1/CMakeLists.txt ../DP_1010/CMakeLists.txt ../DP_10844/CMakeLists.txt ../DP_11053/CMakeLists.txt ../DP_1149/CMakeLists.txt ../DP_11726/CMakeLists.txt ../DP_1256/CMakeLists.txt ../DP_1463/CMakeLists.txt ../DP_1699/CMakeLists.txt ../DP_1904/CMakeLists.txt ../DP_1912/CMakeLists.txt ../DP_1932/CMakeLists.txt ../DP_2193/CMakeLists.txt ../DP_2293/CMakeLists.txt ../DP_2579/CMakeLists.txt ../DP_2839/CMakeLists.txt ../DP_9095/CMakeLists.txt ../DP_9465/CMakeLists.txt ../KAKAO_MaxExpression/CMakeLists.txt ../KAKAO_StringCompression/CMakeLists.txt ../KAKAO_archery/CMakeLists.txt ../KAKAO_bestalbum/CMakeLists.txt ../KAKAO_bigestNumber/CMakeLists.txt ../KAKAO_bracket/CMakeLists.txt ../KAKAO_cache/CMakeLists.txt ../KAKAO_carpet/CMakeLists.txt ../KAKAO_coloringBook/CMakeLists.txt ../KAKAO_compress/CMakeLists.txt ../KAKAO_covid/CMakeLists.txt ../KAKAO_crain/CMakeLists.txt ../KAKAO_dart/CMakeLists.txt ../KAKAO_deletePair/CMakeLists.txt ../KAKAO_develope/CMakeLists.txt ../KAKAO_divisorNumberAndAdd/CMakeLists.txt ../KAKAO_fail/CMakeLists.txt ../KAKAO_fileSort/CMakeLists.txt ../KAKAO_findingPrimeNumber/CMakeLists.txt ../KAKAO_jewelyshopping/CMakeLists.txt ../KAKAO_kNumber/CMakeLists.txt ../KAKAO_keypad/CMakeLists.txt ../KAKAO_lotto/CMakeLists.txt ../KAKAO_menuRenewal/CMakeLists.txt ../KAKAO_moreSpicy/CMakeLists.txt ../KAKAO_newID/CMakeLists.txt ../KAKAO_newsClustering/CMakeLists.txt ../KAKAO_nickname/CMakeLists.txt ../KAKAO_nn/CMakeLists.txt ../KAKAO_parkingFees/CMakeLists.txt ../KAKAO_photo/CMakeLists.txt ../KAKAO_printer/CMakeLists.txt ../KAKAO_pyramid/CMakeLists.txt ../KAKAO_report/CMakeLists.txt ../KAKAO_rotation/CMakeLists.txt ../KAKAO_secretMap/CMakeLists.txt ../KAKAO_stringAndWord/CMakeLists.txt ../KAKAO_targetNumber/CMakeLists.txt ../KAKAO_taxi/CMakeLists.txt ../KAKAO_test/CMakeLists.txt ../KAKAO_thatSong/CMakeLists.txt ../KAKAO_traffic/CMakeLists.txt ../KAKAO_tuple/CMakeLists.txt ../TestA/CMakeLists.txt ../TestB/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../BASIC_Dictionary/CMakeLists.txt ../CMakeLists.txt ../DFS_1/CMakeLists.txt ../DP_1010/CMakeLists.txt ../DP_10844/CMakeLists.txt ../DP_11053/CMakeLists.txt ../DP_1149/CMakeLists.txt ../DP_11726/CMakeLists.txt ../DP_1256/CMakeLists.txt ../DP_1463/CMakeLists.txt ../DP_1699/CMakeLists.txt ../DP_1904/CMakeLists.txt ../DP_1912/CMakeLists.txt ../DP_1932/CMakeLists.txt ../DP_2193/CMakeLists.txt ../DP_2293/CMakeLists.txt ../DP_2579/CMakeLists.txt ../DP_2839/CMakeLists.txt ../DP_9095/CMakeLists.txt ../DP_9465/CMakeLists.txt ../KAKAO_MaxExpression/CMakeLists.txt ../KAKAO_StringCompression/CMakeLists.txt ../KAKAO_archery/CMakeLists.txt ../KAKAO_bestalbum/CMakeLists.txt ../KAKAO_bracket/CMakeLists.txt ../KAKAO_cache/CMakeLists.txt ../KAKAO_carpet/CMakeLists.txt ../KAKAO_coloringBook/CMakeLists.txt ../KAKAO_compress/CMakeLists.txt ../KAKAO_covid/CMakeLists.txt ../KAKAO_crain/CMakeLists.txt ../KAKAO_dart/CMakeLists.txt ../KAKAO_fail/CMakeLists.txt ../KAKAO_fileSort/CMakeLists.txt ../KAKAO_findingPrimeNumber/CMakeLists.txt ../KAKAO_jewelyshopping/CMakeLists.txt ../KAKAO_kNumber/CMakeLists.txt ../KAKAO_keypad/CMakeLists.txt ../KAKAO_lotto/CMakeLists.txt ../KAKAO_menuRenewal/CMakeLists.txt ../KAKAO_newID/CMakeLists.txt ../KAKAO_newsClustering/CMakeLists.txt ../KAKAO_nickname/CMakeLists.txt ../KAKAO_parkingFees/CMakeLists.txt ../KAKAO_photo/CMakeLists.txt ../KAKAO_pyramid/CMakeLists.txt ../KAKAO_report/CMakeLists.txt ../KAKAO_rotation/CMakeLists.txt ../KAKAO_secretMap/CMakeLists.txt ../KAKAO_stringAndWord/CMakeLists.txt ../KAKAO_taxi/CMakeLists.txt ../KAKAO_test/CMakeLists.txt ../KAKAO_thatSong/CMakeLists.txt ../KAKAO_traffic/CMakeLists.txt ../KAKAO_tuple/CMakeLists.txt ../TestA/CMakeLists.txt ../TestB/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake: phony
+build ../BASIC_Dictionary/CMakeLists.txt ../CMakeLists.txt ../DFS_1/CMakeLists.txt ../DP_1010/CMakeLists.txt ../DP_10844/CMakeLists.txt ../DP_11053/CMakeLists.txt ../DP_1149/CMakeLists.txt ../DP_11726/CMakeLists.txt ../DP_1256/CMakeLists.txt ../DP_1463/CMakeLists.txt ../DP_1699/CMakeLists.txt ../DP_1904/CMakeLists.txt ../DP_1912/CMakeLists.txt ../DP_1932/CMakeLists.txt ../DP_2193/CMakeLists.txt ../DP_2293/CMakeLists.txt ../DP_2579/CMakeLists.txt ../DP_2839/CMakeLists.txt ../DP_9095/CMakeLists.txt ../DP_9465/CMakeLists.txt ../KAKAO_MaxExpression/CMakeLists.txt ../KAKAO_StringCompression/CMakeLists.txt ../KAKAO_archery/CMakeLists.txt ../KAKAO_bestalbum/CMakeLists.txt ../KAKAO_bigestNumber/CMakeLists.txt ../KAKAO_bracket/CMakeLists.txt ../KAKAO_cache/CMakeLists.txt ../KAKAO_carpet/CMakeLists.txt ../KAKAO_coloringBook/CMakeLists.txt ../KAKAO_compress/CMakeLists.txt ../KAKAO_covid/CMakeLists.txt ../KAKAO_crain/CMakeLists.txt ../KAKAO_dart/CMakeLists.txt ../KAKAO_deletePair/CMakeLists.txt ../KAKAO_develope/CMakeLists.txt ../KAKAO_divisorNumberAndAdd/CMakeLists.txt ../KAKAO_fail/CMakeLists.txt ../KAKAO_fileSort/CMakeLists.txt ../KAKAO_findingPrimeNumber/CMakeLists.txt ../KAKAO_jewelyshopping/CMakeLists.txt ../KAKAO_kNumber/CMakeLists.txt ../KAKAO_keypad/CMakeLists.txt ../KAKAO_lotto/CMakeLists.txt ../KAKAO_menuRenewal/CMakeLists.txt ../KAKAO_moreSpicy/CMakeLists.txt ../KAKAO_newID/CMakeLists.txt ../KAKAO_newsClustering/CMakeLists.txt ../KAKAO_nickname/CMakeLists.txt ../KAKAO_nn/CMakeLists.txt ../KAKAO_parkingFees/CMakeLists.txt ../KAKAO_photo/CMakeLists.txt ../KAKAO_printer/CMakeLists.txt ../KAKAO_pyramid/CMakeLists.txt ../KAKAO_report/CMakeLists.txt ../KAKAO_rotation/CMakeLists.txt ../KAKAO_secretMap/CMakeLists.txt ../KAKAO_stringAndWord/CMakeLists.txt ../KAKAO_targetNumber/CMakeLists.txt ../KAKAO_taxi/CMakeLists.txt ../KAKAO_test/CMakeLists.txt ../KAKAO_thatSong/CMakeLists.txt ../KAKAO_traffic/CMakeLists.txt ../KAKAO_tuple/CMakeLists.txt ../TestA/CMakeLists.txt ../TestB/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake: phony
 
 
 #############################################
