@@ -169,6 +169,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_candiateKey/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_carpet/cmake_install.cmake")
 endif()
 
@@ -204,6 +209,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_delivery/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_develope/cmake_install.cmake")
 endif()
 
@@ -215,6 +225,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_fail/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_farthesNode/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -240,6 +255,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_keypad/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_listOfMatches/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -309,7 +329,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_rotationBracket/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_secretMap/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_shortestGameMapDistance/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

@@ -466,6 +466,15 @@ KAKAO_cache_IS_TOP_LEVEL:STATIC=OFF
 KAKAO_cache_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_cache
 
 //Value Computed by CMake
+KAKAO_candiateKey_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_candiateKey
+
+//Value Computed by CMake
+KAKAO_candiateKey_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_candiateKey_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_candiateKey
+
+//Value Computed by CMake
 KAKAO_carpet_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_carpet
 
 //Value Computed by CMake
@@ -529,6 +538,15 @@ KAKAO_deletePair_IS_TOP_LEVEL:STATIC=OFF
 KAKAO_deletePair_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_deletePair
 
 //Value Computed by CMake
+KAKAO_delivery_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_delivery
+
+//Value Computed by CMake
+KAKAO_delivery_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_delivery_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_delivery
+
+//Value Computed by CMake
 KAKAO_develope_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_develope
 
 //Value Computed by CMake
@@ -554,6 +572,15 @@ KAKAO_fail_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 KAKAO_fail_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_fail
+
+//Value Computed by CMake
+KAKAO_farthesNode_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_farthesNode
+
+//Value Computed by CMake
+KAKAO_farthesNode_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_farthesNode_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_farthesNode
 
 //Value Computed by CMake
 KAKAO_fileSort_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_fileSort
@@ -599,6 +626,15 @@ KAKAO_keypad_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 KAKAO_keypad_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_keypad
+
+//Value Computed by CMake
+KAKAO_listOfMatches_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_listOfMatches
+
+//Value Computed by CMake
+KAKAO_listOfMatches_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_listOfMatches_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_listOfMatches
 
 //Value Computed by CMake
 KAKAO_lockAndKey_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_lockAndKey
@@ -736,6 +772,15 @@ KAKAO_report_IS_TOP_LEVEL:STATIC=OFF
 KAKAO_report_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_report
 
 //Value Computed by CMake
+KAKAO_rotationBracket_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_rotationBracket
+
+//Value Computed by CMake
+KAKAO_rotationBracket_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_rotationBracket_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_rotationBracket
+
+//Value Computed by CMake
 KAKAO_rotation_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_rotation
 
 //Value Computed by CMake
@@ -752,6 +797,15 @@ KAKAO_secretMap_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 KAKAO_secretMap_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_secretMap
+
+//Value Computed by CMake
+KAKAO_shortestGameMapDistance_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_shortestGameMapDistance
+
+//Value Computed by CMake
+KAKAO_shortestGameMapDistance_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_shortestGameMapDistance_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_shortestGameMapDistance
 
 //Value Computed by CMake
 KAKAO_stringAndWord_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_stringAndWord
@@ -954,7 +1008,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=65
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=71
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
