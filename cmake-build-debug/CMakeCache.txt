@@ -763,6 +763,15 @@ KAKAO_pyramid_IS_TOP_LEVEL:STATIC=OFF
 KAKAO_pyramid_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_pyramid
 
 //Value Computed by CMake
+KAKAO_record_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_record
+
+//Value Computed by CMake
+KAKAO_record_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_record_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_record
+
+//Value Computed by CMake
 KAKAO_report_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_report
 
 //Value Computed by CMake
@@ -860,6 +869,15 @@ KAKAO_traffic_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 KAKAO_traffic_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_traffic
+
+//Value Computed by CMake
+KAKAO_truck_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_truck
+
+//Value Computed by CMake
+KAKAO_truck_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_truck_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_truck
 
 //Value Computed by CMake
 KAKAO_tuple_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_tuple
@@ -1008,7 +1026,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=71
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=73
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

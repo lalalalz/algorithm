@@ -168,6 +168,9 @@
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_pyramid/CMakeFiles/rebuild_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_pyramid/CMakeFiles/edit_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_pyramid/CMakeFiles/KAKAO_pyramid.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_record/CMakeFiles/rebuild_cache.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_record/CMakeFiles/edit_cache.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_record/CMakeFiles/KAKAO_record.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_report/CMakeFiles/rebuild_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_report/CMakeFiles/edit_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_report/CMakeFiles/KAKAO_report.dir
@@ -201,6 +204,9 @@
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_traffic/CMakeFiles/rebuild_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_traffic/CMakeFiles/edit_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_traffic/CMakeFiles/KAKAO_traffic.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_truck/CMakeFiles/rebuild_cache.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_truck/CMakeFiles/edit_cache.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_truck/CMakeFiles/KAKAO_truck.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_tuple/CMakeFiles/rebuild_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_tuple/CMakeFiles/edit_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_tuple/CMakeFiles/KAKAO_tuple.dir
