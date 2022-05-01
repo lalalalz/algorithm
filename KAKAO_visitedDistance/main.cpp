@@ -13,14 +13,12 @@ int direction[4][2] = {{-1, 0},
 
 int solution(string dirs)
 {
-    int nowx = 5;
-    int nowy = 5;
+    int nowx   = 5;
+    int nowy   = 5;
     int answer = 0;
 
-    d['U'] = 0;
-    d['D'] = 1;
-    d['R'] = 2;
-    d['L'] = 3;
+    d['U'] = 0; d['D'] = 1;
+    d['R'] = 2; d['L'] = 3;
 
     for (auto dir : dirs)
     {
