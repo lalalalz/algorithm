@@ -81,6 +81,9 @@
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_bracket/CMakeFiles/rebuild_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_bracket/CMakeFiles/edit_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_bracket/CMakeFiles/KAKAO_bracket.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_brianWorry/CMakeFiles/rebuild_cache.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_brianWorry/CMakeFiles/edit_cache.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_brianWorry/CMakeFiles/KAKAO_brianWorry.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_cache/CMakeFiles/rebuild_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_cache/CMakeFiles/edit_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_cache/CMakeFiles/KAKAO_cache.dir
@@ -234,3 +237,12 @@
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/TestB/CMakeFiles/rebuild_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/TestB/CMakeFiles/edit_cache.dir
 /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/TestB/CMakeFiles/TestB.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/coupang_delivery/CMakeFiles/rebuild_cache.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/coupang_delivery/CMakeFiles/edit_cache.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/coupang_delivery/CMakeFiles/coupang_delivery.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/shomethecode_test1/CMakeFiles/rebuild_cache.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/shomethecode_test1/CMakeFiles/edit_cache.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/shomethecode_test1/CMakeFiles/shomethecode_test1.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/shomethecode_test2/CMakeFiles/rebuild_cache.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/shomethecode_test2/CMakeFiles/edit_cache.dir
+/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/shomethecode_test2/CMakeFiles/shomethecode_test2.dir

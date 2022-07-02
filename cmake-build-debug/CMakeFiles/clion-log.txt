@@ -26,6 +26,7 @@ ADD DIRECTORY : KAKAO_bestalbum
 ADD DIRECTORY : KAKAO_bigestNumber
 ADD DIRECTORY : KAKAO_bit
 ADD DIRECTORY : KAKAO_bracket
+ADD DIRECTORY : KAKAO_brianWorry
 ADD DIRECTORY : KAKAO_cache
 ADD DIRECTORY : KAKAO_candiateKey
 ADD DIRECTORY : KAKAO_carpet
@@ -77,6 +78,9 @@ ADD DIRECTORY : KAKAO_tuple
 ADD DIRECTORY : KAKAO_visitedDistance
 ADD DIRECTORY : TestA
 ADD DIRECTORY : TestB
+ADD DIRECTORY : coupang_delivery
+ADD DIRECTORY : shomethecode_test1
+ADD DIRECTORY : shomethecode_test2
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/lalalalz/CLionProjects/algorithm/cmake-build-debug

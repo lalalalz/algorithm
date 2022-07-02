@@ -174,6 +174,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_brianWorry/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_cache/cmake_install.cmake")
 endif()
 
@@ -425,6 +430,21 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/TestB/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/coupang_delivery/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/shomethecode_test1/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/shomethecode_test2/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

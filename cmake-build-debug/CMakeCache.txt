@@ -475,6 +475,15 @@ KAKAO_bracket_IS_TOP_LEVEL:STATIC=OFF
 KAKAO_bracket_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_bracket
 
 //Value Computed by CMake
+KAKAO_brianWorry_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_brianWorry
+
+//Value Computed by CMake
+KAKAO_brianWorry_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+KAKAO_brianWorry_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/KAKAO_brianWorry
+
+//Value Computed by CMake
 KAKAO_cache_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/KAKAO_cache
 
 //Value Computed by CMake
@@ -987,6 +996,33 @@ algorithm_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 algorithm_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm
 
+//Value Computed by CMake
+coupang_delivery_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/coupang_delivery
+
+//Value Computed by CMake
+coupang_delivery_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+coupang_delivery_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/coupang_delivery
+
+//Value Computed by CMake
+shomethecode_test1_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/shomethecode_test1
+
+//Value Computed by CMake
+shomethecode_test1_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+shomethecode_test1_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/shomethecode_test1
+
+//Value Computed by CMake
+shomethecode_test2_BINARY_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/cmake-build-debug/shomethecode_test2
+
+//Value Computed by CMake
+shomethecode_test2_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+shomethecode_test2_SOURCE_DIR:STATIC=/Users/lalalalz/CLionProjects/algorithm/shomethecode_test2
+
 
 ########################
 # INTERNAL cache entries
@@ -1080,7 +1116,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=79
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=83
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
