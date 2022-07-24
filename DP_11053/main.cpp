@@ -6,9 +6,9 @@ using namespace std;
 int N;
 int CACHE[1001][1001];
 int arr[1001];
-
+  
 // idx ~ N 크기 수열의 부분수열 중 가장 길이가 긴 증가 부분수열
-int func(int idx, int prev)
+int func(int idx, int prev) 
 {
     int& ret = CACHE[idx][prev];
 
