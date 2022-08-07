@@ -21,6 +21,7 @@ int func(int idx, int prev)
 
     return ret;
 }
+
 int main()
 {
     cin >> T;
