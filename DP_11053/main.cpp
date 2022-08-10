@@ -17,7 +17,8 @@ int func(int idx, int prev)
 
     // 현재 값을 선택하지 않고, 진행
     ret = func(idx + 1, prev);
-    // 현재 값을 선택하여 진행
+    
+// 현재 값을 선택하여 진행
     if(prev < arr[idx])
     {
         ret = max(ret, func(idx + 1, arr[idx]) + 1);
@@ -28,7 +29,7 @@ int func(int idx, int prev)
 int main()
 {
     cin >> N;
-
+ 
     for (int i = 0; i < N; ++i)
     {
         cin >> arr[i];
