@@ -15,6 +15,8 @@ int func(int n, int prev)
     if(prev + 1 <= 9)  ret = (ret + func(n + 1, prev + 1)) % L;
     if(prev - 1 >= 0)  ret = (ret + func(n + 1, prev - 1)) % L;
 
+    
+    
     return ret;
 }
 
